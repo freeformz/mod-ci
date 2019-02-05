@@ -1,0 +1,14 @@
+{
+    "buildpacks": [
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-go#goModCI"
+        }
+      ],
+    "environments": {
+      "test": {
+        "env": {
+          "PHOTON_TORPEDOES": "online"
+        }
+      }
+    }
+  }
